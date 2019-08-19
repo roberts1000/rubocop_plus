@@ -1,0 +1,4 @@
+# This cop checks for the use of 'is_', 'has_' and 'have_' in front of methods.  By default, it recommends that they be removed.
+# Predicates are useful in many situations. It's conterproductive to enforce a single style.
+Naming/PredicateName:
+  Enabled: false

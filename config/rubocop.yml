@@ -1,0 +1,20 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+
+AllCops:
+  Exclude:  # skip all of the following....
+    - db/schema.rb  # An auto-generated file
+    - spec/dummy/db/schema.rb # An auto-generated file
+    - lib/tasks/cucumber.rake # A 3rd-party auto-generated file
+    - vendor/**/* # Contains 3rd party libs; no need to check code that originated outside the project
+    - node_modules/**/* # Yarn 3rd party dependencies; no need to check code that originated outside the project
+    - client/**/* # It's mostly JavaScript, but it may contain 3rd party that was written outside of the project
+
+inherit_from:
+  - group/layout.yml
+  - group/lint.yml
+  - group/metrics.yml
+  - group/naming.yml
+  - group/rails.yml
+  - group/style.yml

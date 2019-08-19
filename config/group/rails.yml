@@ -1,0 +1,7 @@
+# Rails/FilePath ensures Rails.root.join('path', 'to') is used instead of "#{Rails.root}/path/to". This cop isn't necessary
+# since Ruby will automatically convert file path separators.
+Rails/FilePath:
+  Enabled: false
+
+Performance/RedundantMerge:
+  Enabled: false
