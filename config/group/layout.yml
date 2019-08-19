@@ -1,0 +1,67 @@
+# Layout/AlignArguments checks alignment of arguments in multi-line method calls. rubocop defaults to `with_first_parameter`
+# which expects:
+#
+#     method_call(a,
+#                 b)
+#
+# rubocop_plus prefers the indented style
+#
+#     method_call(a,
+#       b)
+Layout/AlignArguments:
+  EnforcedStyle: with_fixed_indentation # with_first_parameter is the default
+
+# Layout/AlignParameters checks alignment of parameters in multi-line method calls. rubocop defaults to `with_first_parameter`
+# which expects:
+#
+#     method_call(a,
+#                 b)
+#
+# rubocop_plus prefers the indented style
+#
+#     method_call(a,
+#       b)
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation # with_first_parameter is the default
+
+# This cop checks the indentation of the right hand side operand in operations that span more than one line.
+# Rubocop defaults to 'aligned'.
+#
+#   if first_method +
+#      second_method +
+#      third_method
+#   end
+#
+# Prefer the 'indented' style.
+#
+#   if first_method +
+#        second_method +
+#        third_method
+#   end
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented # aligned is the default
+  IndentationWidth: 3 # the default seems to be 2 which makes methods indent 1 space past the first method
+
+# Layout/MultilineMethodCallIndentation checks the indentation of chained method calls. rubocop defaults to 'aligned':
+#
+#   SomeReallyExceptionallyLongClassName.some_exceptionally_long_method_number_1(plus_variable_one, variable_two_...)
+#                                       .some_exceptionally_long_method_number_2(plus_variable_one, variable_two_...)
+#
+# This can easily cause line length length violations (particularly with ActiveRecord queries), plus it wastes alot of white
+# space at the beginning. The 'indented' style is preferred since it is more compact (although it uses an extra line).
+#
+#   SomeReallyExceptionallyLongClassName
+#     .some_exceptionally_long_method_number_1(plus_variable_one, variable_two_...)
+#     .some_exceptionally_long_method_number_2(plus_variable_one, variable_two_...)
+#
+# This has the added benefit of oriented the method calls directly under the object which is receiving the message, which
+# is more readable.
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+# This cop checks for spaces around the '=' sign in a method's attribute list. Prefer no spaces since it more compact.
+#
+#   = Recommended =                 = Default =
+#   def the_method(foo=1)     vs    def the_method(foo = 1)
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space

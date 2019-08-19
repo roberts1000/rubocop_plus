@@ -1,0 +1,13 @@
+sudo: false
+cache: bundler
+language: ruby
+rvm:
+  - 2.3.8
+  - 2.4.5
+  - 2.5.5
+  - 2.6.3
+before_install: gem install bundler -v 2.0.2
+notifications:
+  email:
+    on_success: never # default: change
+    on_failure: never # default: always

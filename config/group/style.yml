@@ -1,0 +1,91 @@
+# Temporarily disable. This cop has many false positives.
+Style/AccessModifierDeclarations:
+  Enabled: false
+
+# In ruby, you can define modules and classes like this:
+#
+#   = Nested =             = Compact =
+#   class Foo      or      class Foo::Bar
+#     class Bar            end
+#     end
+#   end
+#
+# Style/ClassAndModuleChildren instructs rubocop to prefer 'nested' or 'compact'. The default is 'nested', but Rails typically uses
+# 'compact'. Both are valid and useful strategies and there's no reason to strictly enforce one over the other.
+# See https://github.com/roberts1000/rubocop_plus/issues/24
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+# Style/EmptyMethod checks the formatting of empty methods.  There are two formatting options:
+#
+#   = expanded =      vs      = compact =
+#   def foo                   def foo; end
+#   end
+#
+# rubocop uses the `compact` style by default. rubocop_plus prefers the `expanded` style since it used by Rails and appears to be
+# more common.
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+# Frozen strings are a new feature (as of Ruby 2.3) and may become the default in a future version of Ruby. Disable this cop
+# until more is known.
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# Style/HashSyntax checks how hash are created.  There are many ways to create a hash and they all have valid use cases. This cop has
+# been disabled since it's hard to use a consistent strategy.
+Style/HashSyntax:
+  Enabled: false
+
+# Style/MixinUsage checks that "include" statements do not appear in the global namespace. Some 3rd party files violate this so
+# we'll ignore them.
+Style/MixinUsage:
+  Exclude:
+    - bin/update
+    - bin/setup
+    - spec/dummy/bin/update
+    - spec/dummy/bin/setup
+
+# Style/PreferredHashMethods checks if hash methods like 'has_key?' or 'has_value?' are called, then recommends they be switched
+# to 'key?' and 'value?'. rubocop_plus perfers the use of predicates on method names since they make the code questions more
+# precise. Also, the Naming/PredicateName cop has been disabled in this file and that cop checks for a similar
+# pattern on custom methods. For consistency, the more verbose form (like 'has_key?') is preferred when working with Hashes.
+Style/PreferredHashMethods:
+  EnforcedStyle: verbose
+
+# Style/StringLiterals enforces the use of single quotes around string literals. The major argument for using single quotes is
+# they should be faster than double quotes (which need to be parsed for possible uses of interpolation). Also, they help reveal
+# intention by alerting developers that there is no interpolation in the string. However, there is no performance difference
+# between using single and double quoted strings (https://www.viget.com/articles/just-use-double-quoted-ruby-strings) and
+# we consider any semantic advantages to be not worth the effort. We have disabled this cop and advocate that developers
+# "try" to be consistent within an individual file.
+Style/StringLiterals:
+  Enabled: false
+
+# Style/SingleLineBlockParams requires parameters to have standard names in blocks. rubocop considers the following to be bad:
+#
+#   [1, 2, 3].inject(0) { |sum, a| sum + a }
+#
+# Instead, this is preferred
+#
+#   [1, 2, 3].inject(0) { |acc, elem| acc + elem }
+#
+# "acc" means "acc"umulator and "e" means "elem"ent. Forcing everyone to use the same variable names does standardizes things,
+# but it can decrease readability. Unique variable names which impart meaning are better.
+Style/SingleLineBlockParams:
+  Enabled: false
+
+# Style/StderrPuts suggests using `warn` over `$stderr.puts`. Some 3rd party files violate this so we'll ignore them.
+Style/StderrPuts:
+  Exclude:
+    - bin/yarn
+    - spec/dummy/bin/yarn
+
+# Style/SymbolArray checks if %i or %I are used to create symbol arrays. rubocop recommends
+#
+#   = Good =              = Bad =
+#   %i[foo bar]           [:foo, :bar]
+#
+# The direct symbol form is easier to read and follows Rails.
+Style/SymbolArray:
+  Enabled: false

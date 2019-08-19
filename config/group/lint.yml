@@ -1,0 +1,4 @@
+# Some 3rd party bin files suppress exceptions. Ignore them since the code doesn't originate in the project.
+Lint/HandleExceptions:
+  Exclude:
+    - bin/spring
