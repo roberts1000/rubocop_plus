@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Next Release
+## 1.1.0 (Dec 29, 2019)
 
 [#5](../issues/5): Use `rubocop-rails ~> 2.4.1`.
 
