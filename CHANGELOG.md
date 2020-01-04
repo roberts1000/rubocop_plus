@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Next Release
+
+[#13](../../issues/13): Use `rubocop 0.78.0`.
+
 ## 1.2.0 (Jan 02, 2020)
 
 [#9](../../issues/9): Use `rubocop-performance ~> 1.5.2`.

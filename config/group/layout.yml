@@ -1,4 +1,4 @@
-# Layout/AlignArguments checks alignment of arguments in multi-line method calls. rubocop defaults to `with_first_parameter`
+# Layout/ArgumentAlignment checks alignment of arguments in multi-line method calls. rubocop defaults to `with_first_parameter`
 # which expects:
 #
 #     method_call(a,
@@ -8,7 +8,7 @@
 #
 #     method_call(a,
 #       b)
-Layout/AlignArguments:
+Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation # with_first_parameter is the default
 
 # Layout/AlignParameters checks alignment of parameters in multi-line method calls. rubocop defaults to `with_first_parameter`
@@ -21,7 +21,7 @@ Layout/AlignArguments:
 #
 #     method_call(a,
 #       b)
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation # with_first_parameter is the default
 
 # This cop checks the indentation of the right hand side operand in operations that span more than one line.
@@ -65,3 +65,17 @@ Layout/MultilineMethodCallIndentation:
 #   def the_method(foo=1)     vs    def the_method(foo = 1)
 Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
+
+# Metrics/LineLength checks the length of lines. The 80 character default to too restrictive. It does have the advantage of
+# saving horizontal screen space, which is useful for some layouts/workflows. However, it has some issues:
+#   1. It doesn't take advantage of available horizontal screen width, which is widely available due to the proliferation
+#      wide screen monitors.
+#   2. It adds more lines to a class, which makes it more likely that rubocop's ClassLength cop will be exceeded.
+#   3. Ruby code only represents part of a web application.  It is acceptable for HTML in the view to frequently exceed 80
+#      characters and it is typically uses word-wrap which doesn't use ANY width limits. View code represents a large portion
+#      of an application; if it is going to regularly exceed 80, why restrict the Ruby code to 80?
+#   4. Many other projects, like Rails, exceed 80 so it doesn't appear to be a hard standard (at least not anymore).
+# As a result, a larger line length was adopted to strike a better balance between, readability, scrolling frequency and
+# layout concerns.
+Layout/LineLength:
+  Max: 130 # default is 80.
