@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
-## Next Release
+## 1.4.0 (Jan 07, 2020)
 
 [#21](../../issues/21): Use `rubocop 0.79.0`.
 
