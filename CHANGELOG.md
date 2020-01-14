@@ -2,6 +2,10 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
+## Next Release
+
+[#29](../../issues/29): Use new rspec_starter interface.
+
 ## 1.5.0 (Jan 13, 2020)
 
 [#25](../../issues/25): Add `rubocop-rspec ~> 1.37.1`.
