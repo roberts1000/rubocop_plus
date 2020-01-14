@@ -18,4 +18,5 @@ inherit_from:
   - group/metrics.yml
   - group/naming.yml
   - group/rails.yml
+  - group/rspec.yml
   - group/style.yml

@@ -5,6 +5,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 ## Next Release
 
 [#29](../../issues/29): Use new rspec_starter interface.
+[#31](../../issues/31): Disable the `RSpec/MultipleExpectations` cop.
 
 ## 1.5.0 (Jan 13, 2020)
 
