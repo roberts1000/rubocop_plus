@@ -6,6 +6,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 
 [#29](../../issues/29): Use new rspec_starter interface.
 [#31](../../issues/31): Disable the `RSpec/MultipleExpectations` cop.
+[#33](../../issues/33): Set `RSpec/ExampleLength` `Max` to 8.
 
 ## 1.5.0 (Jan 13, 2020)
 
