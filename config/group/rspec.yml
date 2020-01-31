@@ -12,3 +12,8 @@ RSpec/InstanceVariable:
 # https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/multiple_expectations.rb#L48
 RSpec/MultipleExpectations:
   Enabled: false
+
+# Checks for the use of not_to instead of to_not. Prefer to_not.
+# https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/not_to_not.rb
+RSpec/NotToNot:
+  EnforcedStyle: to_not
