@@ -2,6 +2,10 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
+## Next Release
+
+1. [#54](../../issues/54): Disable the `RSpec/DescribedClass` cop.
+
 ## 1.9.0 (Jan 31, 2020)
 
 1. [#50](../../issues/50): Allow `feature` and `scenario` with the `Capybara/FeatureMethods` cop.
