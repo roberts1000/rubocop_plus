@@ -6,6 +6,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 
 1. [#37](../../issues/37): Use lists in the `CHANGELOG.md`. **(Internal)**
 1. [#39](../../issues/39): Add Ruby 2.7 support.
+1. [#42](../../issues/42): Disable `RSpec/InstanceVariable`.
 
 ## 1.6.0 (Jan 13, 2020)
 
