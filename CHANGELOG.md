@@ -2,6 +2,10 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
+## Next Relase
+
+1. [#50](../../issues/50): Allow `feature` and `scenario` with the `Capybara/FeatureMethods` cop.
+
 ## 1.8.0 (Jan 31, 2020)
 
 1. [#46](../../issues/46): Make `RSpec/NotToNot` use `to_not`.
