@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
-## Next Release
+## 1.7.0 (Jan 31, 2020)
 
 1. [#37](../../issues/37): Use lists in the `CHANGELOG.md`. **(Internal)**
 1. [#39](../../issues/39): Add Ruby 2.7 support.
