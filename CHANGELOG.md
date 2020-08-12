@@ -2,6 +2,10 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
+## Next Release
+
+1. [#63](../../issues/63): Use `rubocop` `0.89.1`.
+
 ## 1.11.0 (Jan 31, 2020)
 
 1. [#58](../../issues/58): Disable the `RSpec/FilePath` cop.
