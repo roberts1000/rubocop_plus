@@ -6,6 +6,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 
 1. [#62](../../issues/62): Use `rubocop-rspec` `~> 1.42.0`.
 1. [#63](../../issues/63): Use `rubocop` `0.89.1`.
+1. [#68](../../issues/68): Remove support for Ruby 2.3 and Ruby 2.4.
 
 ## 1.11.0 (Jan 31, 2020)
 
