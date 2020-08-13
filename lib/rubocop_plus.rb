@@ -6,9 +6,9 @@ require "rubocop"
 
 # Setup pry for development when running "rake console". Guard against load
 # errors in production (since pry is not a runtime dependency in the .gemspec)
-# rubocop:disable Lint/HandleExceptions
+# rubocop:disable Lint/SuppressedException
 begin
   require "pry"
 rescue LoadError
 end
-# rubocop:enable Lint/HandleExceptions
+# rubocop:enable Lint/SuppressedException
