@@ -11,6 +11,7 @@ AllCops:
     - vendor/**/* # Contains 3rd party libs; no need to check code that originated outside the project
     - node_modules/**/* # Yarn 3rd party dependencies; no need to check code that originated outside the project
     - client/**/* # It's mostly JavaScript, but it may contain 3rd party that was written outside of the project
+  NewCops: enable
 
 inherit_from:
   - group/layout.yml
