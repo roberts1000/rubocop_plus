@@ -1,6 +1,6 @@
 # Blocks the use of Capybara style methods like `feature`, `scenario, `given`, etc... Allow the use of some of these methods.
 # https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/capybara/feature_methods.rb
-Capybara/FeatureMethods:
+RSpec/Capybara:
   EnabledMethods:
     - feature
     - scenario
