@@ -4,7 +4,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 
 ## Next Release
 
-1. [#94](../../issues/94): Use `rubocop-rails` `2.9.0`.
+1. [#94](../../issues/94): Use `rubocop-rails` `2.9.1`.
 1. [#96](../../issues/96): Use `rubocop` `1.6.1`.
 1. [#98](../../issues/98): Change `Capybara/FeatureMethods` to `RSpec/Capybara`.
 
