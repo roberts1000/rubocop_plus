@@ -18,7 +18,7 @@ module RubocopPlus
         #   \s*             - match 0-N white space characters
         #   rubocop_plus    - match the gem_name exactly once
         #   \s              - match one white space character (it will always be a space or a \n)
-        File.foreach("Gemfile.lock") { |line| return true if line =~ /^\s*rubocop_plus\s/ }
+        File.foreach("Gemfile.lock") { |line| return true if /^\s*rubocop_plus\s/.match?(line) }
         false
       end
 

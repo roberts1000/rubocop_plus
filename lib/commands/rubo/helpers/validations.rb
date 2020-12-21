@@ -50,7 +50,7 @@ module RubocopPlus
         raise error, "#{prefix}  The #{file_name} file is empty." if violations.nil? || violations.strip.empty?
 
         violations = violations.strip
-        raise error, "#{prefix}  The #{file_name} file contains non-digit characters." unless violations =~ /^\d*$/
+        raise error, "#{prefix}  The #{file_name} file contains non-digit characters." unless /^\d*$/.match?(violations)
       end
     end
   end
