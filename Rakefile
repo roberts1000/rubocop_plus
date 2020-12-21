@@ -5,6 +5,7 @@ RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
 
+desc "Start a console with rubocop_plus loaded"
 task :console do
   exec "pry -r rubocop_plus -I ./lib"
   # exec "irb -r rubocop_plus -I ./lib"

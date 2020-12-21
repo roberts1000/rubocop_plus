@@ -19,7 +19,7 @@ module RubocopPlus
       def determine_total_violations_count
         total_line = ""
         File.readlines(style_counts_text_file_name).each { |line| total_line = line if line.include?("Total") }
-        @total_violations = total_line.empty? ? 0 : total_line.split(" ").first.to_i
+        @total_violations = total_line.empty? ? 0 : total_line.split.first.to_i
       end
 
       # Return the total violations count from the last rubocop run and remember the result.  This result should not do

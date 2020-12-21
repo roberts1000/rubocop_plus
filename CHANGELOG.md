@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
-## Next Release
+## 2.1.0 (Dec 21, 2020)
 
 1. [#94](../../issues/94): Use `rubocop-rails` `2.9.1`.
 1. [#96](../../issues/96): Use `rubocop` `1.6.1`.
