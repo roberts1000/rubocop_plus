@@ -8,6 +8,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 1. [#96](../../issues/96): Use `rubocop` `1.6.1`.
 1. [#98](../../issues/98): Change `Capybara/FeatureMethods` to `RSpec/Capybara`.
 1. [#102](../../issues/102): Use `rubocop-rspec` `2.1.0`.
+1. [#105](../../issues/105): Use `rubocop-performance` `1.9.1`.
 
 ## 2.0.0 (Nov 29, 2020)
 
