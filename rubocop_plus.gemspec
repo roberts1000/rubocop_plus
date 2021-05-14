@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "pry", "~> 0.13.1"
+  spec.add_development_dependency "pry", "~> 0.14.1"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.10.0"
 
