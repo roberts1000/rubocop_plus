@@ -9,6 +9,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 1. [#116](../../issues/116): Drop support for Ruby 2.5.
 1. [#118](../../issues/118): Use `rubocop` `1.14.0`.
 1. [#121](../../issues/121): Use `rubocop-rails` `2.10.1`.
+1. [#123](../../issues/123): Use `pry` `~> 0.14.1`.
 
 ## 2.1.0 (Dec 21, 2020)
 
