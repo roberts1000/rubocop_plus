@@ -10,9 +10,11 @@
 
 Releases are versioned using [semver 2.0.0](https://semver.org/spec/v2.0.0.html).
 
+Ruby versions that reach EOL will be removed without a major version bump.
+
 ## Supported Ruby Versions
 
-Ruby 2.5+
+Ruby 2.6.0+ is supported.
 
 ## Installation
 
