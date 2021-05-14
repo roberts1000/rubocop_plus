@@ -5,6 +5,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 ## Next Release
 
 1. [#113](../../issues/113): Require `rubocop-rake`.
+1. [#116](../../issues/116): Drop support for Ruby 2.5.
 
 ## 2.1.0 (Dec 21, 2020)
 
