@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "cri", "~> 2.0"
   spec.add_dependency "rubocop", RubocopPlus::RUBOCOP_VERSION.to_s
   spec.add_dependency "rubocop-performance", "1.11.3"
-  spec.add_dependency "rubocop-rails", "2.9.1"
+  spec.add_dependency "rubocop-rails", "2.10.1"
   spec.add_dependency "rubocop-rake", "0.5.1"
   spec.add_dependency "rubocop-rspec", "2.3.0"
 end
