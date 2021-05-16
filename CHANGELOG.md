@@ -2,14 +2,14 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
-## Next Release
+## 2.2.0 (May 16, 2021)
 
 1. [#113](../../issues/113): Require `rubocop-rake`.
 1. [#115](../../issues/115): Use `rubocop-performance` `1.11.3`.
 1. [#116](../../issues/116): Drop support for Ruby 2.5.
 1. [#118](../../issues/118): Use `rubocop` `1.14.0`.
 1. [#121](../../issues/121): Use `rubocop-rails` `2.10.1`.
-1. [#123](../../issues/123): Use `pry` `~> 0.14.1`.
+1. [#123](../../issues/123): Use `pry` `~> 0.14.1`. **(Internal)**
 
 ## 2.1.0 (Dec 21, 2020)
 
