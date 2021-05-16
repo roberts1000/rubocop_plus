@@ -22,13 +22,15 @@ Install `rubocop_plus` manually by executing:
 
     $ gem install rubocop_plus
 
-You can also place `rubocop_plus` into the `:development` group of your project's `Gemfile`:
+You can also add `rubocop_plus` to the `:development` group of your project's `Gemfile`:
 
 ```ruby
 gem 'rubocop_plus', group: :development
 ```
 
-If the `rubocop` gem is listed in the `Gemfile`, remove it. `rubocop_plus` will install the version of `rubocop` that it wants to use.
+If `rubocop` is listed in the `Gemfile`, remove it. `rubocop_plus` will install the version of `rubocop` that it needs.
+
+(**Note:** Keep in mind, if you place `rubocop_plus` in a projects Gemfile, it will **lock** your project to the version of `rubocop_plus` that gets written to the Gemfile.lock file. If you're using a CI tool like Jenkins, this will likely make the CI tool use that same version - which is not always ideal. Some people prefer to have the CI platform **tell** the project which version of `rubocop_plus` to use. If this is your goal, do not put the `rubocop_plus` in the project's Gemfile.)
 
 Next, bundle the app:
 
@@ -38,9 +40,7 @@ Initialize your project's `rubocop` configuration
 
     $ rubo --init
 
-This will create a specially configured `.rubocop.yml` inside the project root.
-
-**Note:** Keep in mind, if you place `rubocop_plus` in a projects Gemfile, it will **lock** your project to the version of `rubocop_plus` that gets written to the Gemfile.lock file. If you're using a continuous integration platform, like Jenkins or Travis, this will likely restrict the CI tool to that same version - which is not always ideal. Some people prefer to have the CI platform **tell** the project which version of `rubocop_plus` to use. In that case, you should not put the `rubocop_plus` in the project's Gemfile.
+This will create a `.rubocop.yml` inside the project root. By default, this file has configuration that tells `rubocop` to look in the `rubocop_plus` gem for custom RuboCop configuration. You can add additional configuration to this file if you would like to make other changes to RuboCop.
 
 ## Usage
 
@@ -66,13 +66,16 @@ Run the test suite:
 
 ### Start a Development Console
 
-Start an interactive prompt that will allow you to experiment:
+Start an interactive prompt that will allow you to experiment(choose one):
 
-    $ bin/console
+```bash
+$ bin/console  # for Pry
+$ rake console # for IRB
+```
 
 ### Workflow Advice
 
-The easiest way to develop with the gem locally is to `cd` into another ruby project that can serve as a test bed. From the sample project's root folder, execute `../path/to/rubocop_rspec/exe/rubo`.
+The easiest way to develop with the gem locally is to `cd` into another ruby project that can serve as a test bed. From the sample project's root folder, execute `../path/to/rubocop_plus/exe/rubo`.
 
 ### Release a New Version
 
