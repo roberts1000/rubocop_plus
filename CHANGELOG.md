@@ -2,6 +2,10 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support  development or refactoring.
 
+## Next Release
+
+1. [#129](../../issues/129): Use `rubocop` `1.18.4`.
+
 ## 2.2.0 (May 16, 2021)
 
 1. [#113](../../issues/113): Require `rubocop-rake`.
