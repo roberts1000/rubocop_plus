@@ -5,6 +5,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 ## Next Release
 
 1. [#129](../../issues/129): Use `rubocop` `1.18.4`.
+1. [#131](../../issues/131): Remove Travis CI integration. **(Internal)**
 
 ## 2.2.0 (May 16, 2021)
 
