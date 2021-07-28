@@ -10,6 +10,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 1. [#135](../../issues/135): Use `rubocop-performance` `1.11.4`.
 1. [#137](../../issues/137): Use `rubocop-rails` `2.11.3`.
 1. [#139](../../issues/139): Use `rubocop-rake` `0.6.0`.
+1. [#141](../../issues/141): Use `rubocop-rspec` `2.4.0`.
 
 ## 2.2.0 (May 16, 2021)
 
