@@ -8,6 +8,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 1. [#131](../../issues/131): Remove Travis CI integration. **(Internal)**
 1. [#133](../../issues/133): Add GitHub action workflow to check pull requests. **(Internal)**
 1. [#135](../../issues/135): Use `rubocop-performance` `1.11.4`.
+1. [#137](../../issues/137): Use `rubocop-rails` `2.11.3`.
 
 ## 2.2.0 (May 16, 2021)
 
