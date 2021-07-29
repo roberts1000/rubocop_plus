@@ -26,14 +26,14 @@ command = Cri::Command.define do
   usage       'rubo [options]'
   # aliases     :ds, :stuff
   # summary     'foo'
-  description 'rubo is an executable installed by the rubocop_plus gem.  It invokes rubocop with a custom set of ' \
-    "rules.  The following status codes are returned:\n\n" \
-    "STATUS CODES\n\n" \
-    "0 - rubocop ran and results were written to the 'rubocop' folder........\n" \
-    "1 - the project root does not contain a .rubocop.yml file...............\n" \
-    "2 - the .rubocop.yml file does not have the correct content.............\n" \
-    "3 - the 'rubocop' command cound not be found (likely due to missing gem)\n" \
-    "4 - the output from the 'rubo' command is missing or corrupt............\n"
+  description "rubo is an executable installed by the rubocop_plus gem.  It invokes rubocop with a custom set of " \
+              "rules.  The following status codes are returned:\n\n" \
+              "STATUS CODES\n\n" \
+              "0 - rubocop ran and results were written to the 'rubocop' folder........\n" \
+              "1 - the project root does not contain a .rubocop.yml file...............\n" \
+              "2 - the .rubocop.yml file does not have the correct content.............\n" \
+              "3 - the 'rubocop' command cound not be found (likely due to missing gem)\n" \
+              "4 - the output from the 'rubo' command is missing or corrupt............\n"
 
   flag :h, :help, 'show help for this command' do |_value, cmd|
     puts cmd.help
