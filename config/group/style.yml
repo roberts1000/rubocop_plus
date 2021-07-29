@@ -53,6 +53,10 @@ Style/MixinUsage:
 Style/PreferredHashMethods:
   EnforcedStyle: verbose
 
+# See the commment for Style/StringLiterals.
+Style/QuotedSymbols:
+  Enabled: false
+
 # Style/StringLiterals enforces the use of single quotes around string literals. The major argument for using single quotes is
 # they should be faster than double quotes (which need to be parsed for possible uses of interpolation). Also, they help reveal
 # intention by alerting developers that there is no interpolation in the string. However, there is no performance difference
