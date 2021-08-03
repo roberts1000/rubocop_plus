@@ -4,7 +4,8 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Change
 
 ## Next Release
 
-1. [#147](../../issues/147): Exclude `spec/dummy/config/environments` files from all cops.
+1. [#147](../../issues/147): Exclude `spec/dummy/config/environments` files for all cops.
+1. [#149](../../issues/149): Exclude `spec/dummy/config/puma.rb` file for all cops.
 
 ## 2.3.0 (Jul 29, 2021)
 

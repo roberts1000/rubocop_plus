@@ -15,6 +15,7 @@ AllCops:
     - spec/dummy/config/environments/production.rb # A 3rd-party auto-generated file
     - spec/dummy/config/environments/development.rb # A 3rd-party auto-generated file
     - spec/dummy/config/environments/test.rb # A 3rd-party auto-generated file
+    - spec/dummy/config/puma.rb # A 3rd-party auto-generated file
   NewCops: enable
 
 inherit_from:
