@@ -2,6 +2,10 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support development or refactoring.
 
+## Next Release
+
+1. [#147](../../issues/147): Exclude `spec/dummy/config/environments` files from all cops.
+
 ## 2.3.0 (Jul 29, 2021)
 
 1. [#129](../../issues/129): Use `rubocop` `1.18.4`.
