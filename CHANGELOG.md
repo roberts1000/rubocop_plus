@@ -6,6 +6,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 
 1. [#153](../../issues/153): Use `rspec_starter` `~> 2.0`. **(Internal)**
 1. [#155](../../issues/155): Exclude `bin/yarn` and `spec/dummy/bin/yarn` for all cops.
+1. [#157](../../issues/157): Make the PR workflow execute `exe/rubo`. **(Internal)**
 
 ## 2.4.0 (Aug 03, 2021)
 
