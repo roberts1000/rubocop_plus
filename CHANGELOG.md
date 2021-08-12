@@ -1,6 +1,10 @@
 # CHANGELOG
 
-Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Changes marked as **(Internal)** support development or refactoring.
+Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
+
+## Next Release
+
+1. [#153](../../issues/153): Use `rspec_starter` `~> 2.0`. **(Internal)**
 
 ## 2.4.0 (Aug 03, 2021)
 
