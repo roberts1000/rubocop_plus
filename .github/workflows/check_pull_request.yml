@@ -28,7 +28,6 @@ jobs:
   rubocop:
     name: Run Rubocop
     runs-on: ubuntu-latest
-    needs: rspec
     strategy:
       matrix:
         ruby-version: ['2.6']
@@ -42,7 +41,7 @@ jobs:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Execute rubo command
-        run: bundle exec rubo
+        run: bundle exec exe/rubo
       - name: Evaluate rubo threshold
         run: |
           count=$(cat rubocop/total-violations-count.txt)
