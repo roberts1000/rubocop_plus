@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release
+## 2.5.0 (Oct 31, 2021)
 
 1. [#153](../../issues/153): Use `rspec_starter` `~> 2.0`. **(Internal)**
 1. [#155](../../issues/155): Exclude `bin/yarn` and `spec/dummy/bin/yarn` for all cops.
