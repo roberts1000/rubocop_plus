@@ -7,6 +7,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#170](../../issues/170): Use `rubocop-rspec` `2.7.0`.
 1. [#172](../../issues/172): Support Ruby 3.1. **(Internal)**
 1. [#174](../../issues/174): Use `rubocop-rails` `2.13.0`.
+1. [#176](../../issues/176): Use `rubocop-performance` `1.13.1`.
 
 ## 2.5.0 (Oct 31, 2021)
 
