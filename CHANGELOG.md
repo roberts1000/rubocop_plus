@@ -5,6 +5,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 ## Next Release
 
 1. [#170](../../issues/170): Use `rubocop-rspec` `2.7.0`.
+1. [#172](../../issues/172): Support Ruby 3.1. **(Internal)**
 
 ## 2.5.0 (Oct 31, 2021)
 
