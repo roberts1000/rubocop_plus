@@ -1,10 +1,3 @@
-# Blocks the use of Capybara style methods like `feature`, `scenario, `given`, etc... Allow the use of some of these methods.
-# https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/capybara/feature_methods.rb
-RSpec/Capybara:
-  EnabledMethods:
-    - feature
-    - scenario
-
 # Checks if the first element of a describe block is a class and if described_class is used in examples. Prefer the flexibility
 # of using strings with `describe` and putting the described class directly in an example.
 # https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/described_class.rb
