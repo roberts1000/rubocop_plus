@@ -2,6 +2,10 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
+## Next Release
+
+1. [#211](../../issues/211): Use `rubocop` `1.35.1`.
+
 ## 2.8.0 (May 31, 2022)
 
 1. [#194](../../issues/194): Use `rubocop-rspec` `2.11.1`.
