@@ -5,6 +5,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 ## Next Release
 
 1. [#211](../../issues/211): Use `rubocop` `1.35.1`.
+1. [#214](../../issues/214): Disable `Layout/LineContinuationLeadingSpace`.
 
 ## 2.8.0 (May 31, 2022)
 

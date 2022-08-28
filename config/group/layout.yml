@@ -11,6 +11,14 @@
 Layout/ArgumentAlignment:
   EnforcedStyle: with_fixed_indentation # with_first_parameter is the default
 
+# Layout/LineContinuationLeadingSpace
+# From the RuboCop docs (https://docs.rubocop.org/rubocop/cops_layout.html#layoutlinecontinuationleadingspace):
+#   Checks that strings broken over multiple lines (by a backslash) contain trailing spaces
+#   instead of leading spaces (default) or leading spaces instead of trailing spaces."
+# Disable the cop since there are many situations where it's useful to maintain the leading spaces.
+Layout/LineContinuationLeadingSpace:
+  Enabled: false
+
 # Layout/AlignParameters checks alignment of parameters in multi-line method calls. rubocop defaults to `with_first_parameter`
 # which expects:
 #
