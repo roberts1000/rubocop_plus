@@ -8,6 +8,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#211](../../issues/211): Use `rubocop` `1.35.1`.
 1. [#214](../../issues/214): Disable `Layout/LineContinuationLeadingSpace`.
 1. [#216](../../issues/216): Use `rubocop-performance 1.14.3`.
+1. [#218](../../issues/218): Use `rubocop-rails 2.15.2`.
 
 ## 2.8.0 (May 31, 2022)
 
