@@ -7,6 +7,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#222](../../issues/222): Use `rubocop-performance 1.15.1`.
 1. [#224](../../issues/224): Use `rubocop-rails 2.17.3`.
 1. [#226](../../issues/226): Use `rspec` `~> 3.12`.
+1. [#228](../../issues/228): Use `rubocop-rspec` `2.15.0`.
 
 ## 2.9.0 (Aug 28, 2022)
 
