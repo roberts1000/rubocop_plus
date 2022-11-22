@@ -7,6 +7,7 @@ require:
 AllCops:
   Exclude:  # skip all of the following....
     - config/environments/production.rb # A 3rd-party auto-generated file
+    - bin/bundle # A 3rd-party auto-generated file
     - bin/yarn # A 3rd-party auto-generated file
     - db/schema.rb  # An auto-generated file
     - spec/dummy/db/schema.rb # An auto-generated file

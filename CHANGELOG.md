@@ -11,6 +11,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#230](../../issues/230): Use `rubocop` `1.39.0`.
 1. [#233](../../issues/233): Disable `Rails/ActionOrder`.
 1. [#235](../../issues/235): Exclude `config/environments/production.rb`.
+1. [#237](../../issues/237): Exclude `bin/bundle`.
 
 ## 2.9.0 (Aug 28, 2022)
 
