@@ -9,6 +9,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#226](../../issues/226): Use `rspec` `~> 3.12`.
 1. [#228](../../issues/228): Use `rubocop-rspec` `2.15.0`.
 1. [#230](../../issues/230): Use `rubocop` `1.39.0`.
+1. [#233](../../issues/233): Disable `Rails/ActionOrder`.
 
 ## 2.9.0 (Aug 28, 2022)
 
