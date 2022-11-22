@@ -2,11 +2,11 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release
+## 2.10.0 (Nov 21, 2022)
 
 1. [#222](../../issues/222): Use `rubocop-performance 1.15.1`.
 1. [#224](../../issues/224): Use `rubocop-rails 2.17.3`.
-1. [#226](../../issues/226): Use `rspec` `~> 3.12`.
+1. [#226](../../issues/226): Use `rspec` `~> 3.12`. **(Internal)**
 1. [#228](../../issues/228): Use `rubocop-rspec` `2.15.0`.
 1. [#230](../../issues/230): Use `rubocop` `1.39.0`.
 1. [#233](../../issues/233): Disable `Rails/ActionOrder`.
