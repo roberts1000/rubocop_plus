@@ -6,20 +6,20 @@ require:
 
 AllCops:
   Exclude:  # skip all of the following....
-    - config/environments/production.rb # A 3rd-party auto-generated file
     - bin/bundle # A 3rd-party auto-generated file
     - bin/yarn # A 3rd-party auto-generated file
-    - db/schema.rb  # An auto-generated file
-    - spec/dummy/db/schema.rb # An auto-generated file
-    - lib/tasks/cucumber.rake # A 3rd-party auto-generated file
-    - vendor/**/* # Contains 3rd party libs; no need to check code that originated outside the project
-    - node_modules/**/* # Yarn 3rd party dependencies; no need to check code that originated outside the project
     - client/**/* # It's mostly JavaScript, but it may contain 3rd party that was written outside of the project
+    - config/environments/production.rb # A 3rd-party auto-generated file
+    - db/schema.rb  # An auto-generated file
+    - lib/tasks/cucumber.rake # A 3rd-party auto-generated file
+    - node_modules/**/* # Yarn 3rd party dependencies; no need to check code that originated outside the project
     - spec/dummy/bin/yarn # A 3rd-party auto-generated file
-    - spec/dummy/config/environments/production.rb # A 3rd-party auto-generated file
+    - spec/dummy/db/schema.rb # An auto-generated file
     - spec/dummy/config/environments/development.rb # A 3rd-party auto-generated file
+    - spec/dummy/config/environments/production.rb # A 3rd-party auto-generated file
     - spec/dummy/config/environments/test.rb # A 3rd-party auto-generated file
     - spec/dummy/config/puma.rb # A 3rd-party auto-generated file
+    - vendor/**/* # Contains 3rd party libs; no need to check code that originated outside the project
   NewCops: enable
 
 inherit_from:
