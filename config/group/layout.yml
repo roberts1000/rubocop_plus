@@ -87,3 +87,7 @@ Layout/SpaceAroundEqualsInParameterDefault:
 # layout concerns.
 Layout/LineLength:
   Max: 130 # default is 80.
+
+# See https://github.com/roberts1000/rubocop_plus/issues/250
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: false
