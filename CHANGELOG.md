@@ -5,6 +5,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 ## Next Release
 
 1. [#241](../../issues/241): Use `rubocop` `1.44.1`.
+1. [#243](../../issues/243): Use `rubocop-performance 1.15.2`.
 
 ## 2.10.0 (Nov 21, 2022)
 
