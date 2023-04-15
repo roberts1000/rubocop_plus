@@ -7,6 +7,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#256](../../issues/256): Use `rubocop` `1.50.1`.
 1. [#258](../../issues/258): Remove Ruby 2.7 support.
 1. [#260](../../issues/260): Add Ruby 3.2 support.
+1. [#262](../../issues/262): Use `rubocop-performance 1.17.1`.
 
 ## 2.11.0 (Jan 31, 2023)
 
