@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release
+## 2.12.0 (Apr 14, 2023)
 
 1. [#256](../../issues/256): Use `rubocop` `1.50.1`.
 1. [#258](../../issues/258): Remove Ruby 2.7 support.
