@@ -22,11 +22,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 3.0"
 
-  spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "pry", "~> 0.14.1"
-  spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rspec", "~> 3.12"
-
   spec.add_dependency "cri", "~> 2.0"
   spec.add_dependency "rubocop", RubocopPlus::RUBOCOP_VERSION.to_s
   spec.add_dependency "rubocop-performance", "1.19.1"
