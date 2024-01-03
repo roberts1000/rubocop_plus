@@ -5,6 +5,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 ## Next Release
 
 1. [#283](../../issues/283): Use `rubocop` `1.59.0`.
+1. [#285](../../issues/285): Add Ruby 3.3 support.
 
 ## 2.13.0 (Oct 14, 2023)
 
