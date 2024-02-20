@@ -9,7 +9,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#287](../../issues/287): Hide PR template comment. **(Internal)**
 1. [#289](../../issues/289): Use `rubocop-rspec` `2.26.1`.
 1. [#291](../../issues/291): Use `rubocop-rails` `2.23.1`.
-1. [#293](../../issues/293): Use `rubocop-performance` `1.20.1`.
+1. [#293](../../issues/293): Use `rubocop-performance` `1.20.2`.
 
 ## 2.13.0 (Oct 14, 2023)
 
