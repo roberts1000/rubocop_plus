@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release
+## 2.14.0 (Feb 19, 2024)
 
 1. [#283](../../issues/283): Use `rubocop` `1.60.2`.
 1. [#285](../../issues/285): Add Ruby 3.3 support.
