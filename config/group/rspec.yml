@@ -9,11 +9,6 @@ RSpec/DescribedClass:
 RSpec/ExampleLength:
   Max: 8
 
-# Checks that spec file paths are consistent with the test subject. Cop is too strict.
-# https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/file_path.rb
-RSpec/FilePath:
-  Enabled: false
-
 # Checks for the use of instance variables in specs. Prefer allowing instance variables ('let' should be used when possible).
 # https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/instance_variable.rb
 RSpec/InstanceVariable:
