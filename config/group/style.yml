@@ -2,6 +2,10 @@
 Style/AccessModifierDeclarations:
   Enabled: false
 
+Style/BlockComments:
+  Exclude:
+    - spec/spec_helper.rb
+
 # In ruby, you can define modules and classes like this:
 #
 #   = Nested =             = Compact =
