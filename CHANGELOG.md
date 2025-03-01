@@ -11,6 +11,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#332](../../issues/332): Use `rubocop-rspec` `3.5.0`.
 1. [#334](../../issues/334): Update development and test gems. **(Internal)**
 1. [#337](../../issues/337): Switch to plugin loading. **(Internal)**
+1. [#340](../../issues/340): Remove Ruby 3.1 support.
 
 ## 2.16.0 (Aug 11, 2024)
 

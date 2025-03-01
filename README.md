@@ -11,7 +11,7 @@
 
 ## Supported Ruby Versions
 
-Ruby 3.1.0+ is supported.
+Ruby 3.2.0+ is supported.
 
 ## Installation
 
