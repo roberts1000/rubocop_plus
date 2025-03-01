@@ -19,6 +19,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#350](../../issues/350): Exclude `spec/spec_helper.rb` from `Style/BlockComments`.
 1. [#352](../../issues/352): Add `rubocop-rspec_rails` `2.30.0`.
 1. [#354](../../issues/354): Add `rubocop-factory_bot` `2.26.1`.
+1. [#356](../../issues/356): Add `rubocop-capybara` `2.21.0`.
 
 ## 2.16.0 (Aug 11, 2024)
 
