@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release
+## 2.17.0 (Feb 28, 2025)
 
 1. [#324](../../issues/324): Use `rubocop-rspec` `0.7.1`.
 1. [#325](../../issues/325): Use `rubocop` `1.73.1`.
@@ -22,7 +22,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#356](../../issues/356): Add `rubocop-capybara` `2.21.0`.
 1. [#358](../../issues/358): Make `Naming/BlockForwarding` use the `explicit` style.
 
-## 2.16.0 (Aug 11, 2024)
+## 2.16.0 (Feb 26, 2025)
 
 1. [#314](../../issues/314): Use `rubocop` `1.65.1`.
 1. [#316](../../issues/316): Use `rubocop-performance` `1.21.1`.
