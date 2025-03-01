@@ -15,6 +15,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#342](../../issues/342): Add Ruby 3.4 support.
 1. [#344](../../issues/344): Remove `RSpec/FilePath` configuration.
 1. [#346](../../issues/346): Set `RSpec/ExampleLength` to 15.
+1. [#348](../../issues/348): Exclude `spec/rails_helper.rb` from `Rails/RootPathnameMethods`.
 
 ## 2.16.0 (Aug 11, 2024)
 
