@@ -8,3 +8,7 @@ Rails/FilePath:
 
 Performance/RedundantMerge:
   Enabled: false
+
+Rails/RootPathnameMethods:
+  Exclude:
+    - spec/rails_helper.rb # See https://github.com/roberts1000/rubocop_plus/issues/348
