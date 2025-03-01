@@ -4,6 +4,9 @@ plugins:
   - rubocop-rake
   - rubocop-rspec
 
+require:
+  - rubocop-rspec_rails
+
 AllCops:
   Exclude:  # skip all of the following....
     - bin/bundle # A 3rd-party auto-generated file
