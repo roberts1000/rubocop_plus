@@ -7,7 +7,7 @@ RSpec/DescribedClass:
 # Checks the number of lines in the spec example. The default is 5, which frequently can be a bit tight.
 # https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/example_length.rb#L28
 RSpec/ExampleLength:
-  Max: 8
+  Max: 15
 
 # Checks for the use of instance variables in specs. Prefer allowing instance variables ('let' should be used when possible).
 # https://github.com/rubocop-hq/rubocop-rspec/blob/v1.37.1/lib/rubocop/cop/rspec/instance_variable.rb
