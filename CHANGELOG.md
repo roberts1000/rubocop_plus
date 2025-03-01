@@ -2,10 +2,10 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release 
+## Next Release
 
 1. [#324](../../issues/324): Use `rubocop-rspec` `0.7.1`.
-1. [#325](../../issues/325): Use `rubocop` `1.72.2`.
+1. [#325](../../issues/325): Use `rubocop` `1.73.1`.
 1. [#328](../../issues/328): Use `rubocop-performance` `1.24.0`.
 1. [#330](../../issues/330): Use `rubocop-rails` `2.30.2`.
 1. [#332](../../issues/332): Use `rubocop-rspec` `3.5.0`.
