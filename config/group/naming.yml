@@ -1,7 +1,7 @@
 Naming/BlockForwarding:
   EnforcedStyle: explicit # See https://github.com/roberts1000/rubocop_plus/issues/358
 
-# This cop checks for the use of 'is_', 'has_' and 'have_' in front of methods.  By default, it recommends that they be removed.
-# Predicates are useful in many situations. It's conterproductive to enforce a single style.
-Naming/PredicateName:
+# This cop checks for the use of 'is_', 'has_' and 'have_' in front of methods. Keep prefixes can sometimes improve readability.
+# For example, 'is_cat?'' has a different meaning than 'has_cat?' And just 'cat?' is ambiguous.
+Naming/PredicatePrefix:
   Enabled: false

@@ -52,7 +52,7 @@ Style/MixinUsage:
 
 # Style/PreferredHashMethods checks if hash methods like 'has_key?' or 'has_value?' are called, then recommends they be switched
 # to 'key?' and 'value?'. rubocop_plus perfers the use of predicates on method names since they make the code questions more
-# precise. Also, the Naming/PredicateName cop has been disabled in this file and that cop checks for a similar
+# precise. Also, the Naming/PredicatePrefix cop has been disabled in this file and that cop checks for a similar
 # pattern on custom methods. For consistency, the more verbose form (like 'has_key?') is preferred when working with Hashes.
 Style/PreferredHashMethods:
   EnforcedStyle: verbose

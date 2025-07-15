@@ -12,6 +12,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#371](../../issues/371): Use `rubocop-rspec` `3.6.0`.
 1. [#373](../../issues/373): Use `rubocop-rspec_rails` `2.31.0`.
 1. [#375](../../issues/375): Finish plugin loading migration.
+1. [#377](../../issues/377): Rename `Naming/PredicateName` to `Naming/PredicatePrefix`.
 
 ## 2.17.0 (Feb 28, 2025)
 
