@@ -6,6 +6,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 
 1. [#361](../../issues/361): Use `rubocop` `1.78.0`.
 1. [#363](../../issues/363): Use `rubocop-capybara` `2.22.1`.
+1. [#365](../../issues/365): Use `rubocop-factory_bot` `2.27.1`.
 
 ## 2.17.0 (Feb 28, 2025)
 
