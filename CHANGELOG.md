@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release
+## 2.19.0 (Oct 10, 2025)
 
 1. [#381](../../issues/381): Use `rubocop` `1.80.1.`
 1. [#383](../../issues/383): Use `rubocop-performance` `1.26.0.`
