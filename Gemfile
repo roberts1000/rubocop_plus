@@ -10,7 +10,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "bundler", "~> 2.0"
+  gem "bundler", ">= 2.0"
   gem "pry", "~> 0.15.0"
   gem "rake", "~> 13.0"
 end
