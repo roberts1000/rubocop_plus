@@ -5,6 +5,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 ## Next Release
 
 1. [#391](../../issues/391): Allow `bundler` `>= 2.0`.
+1. [#393](../../issues/393): Use `rubocop` `1.82.1`.
 
 ## 2.19.0 (Oct 10, 2025)
 
@@ -120,7 +121,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#194](../../issues/194): Use `rubocop-rspec` `2.11.1`.
 1. [#196](../../issues/196): Use `rubocop-rails` `2.14.2`.
 1. [#198](../../issues/198): Use `rubocop` `1.30.0`.
-1. [#200](../../issues/200): Remove `RSpec/Capybara` `EnabledMethods` config. 
+1. [#200](../../issues/200): Remove `RSpec/Capybara` `EnabledMethods` config.
 1. [#203](../../issues/203): End support for Ruby 2.6.
 1. [#205](../../issues/205): Use `rubocop-performance` `1.14.0`.
 
