@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release
+## 2.20.0 (Jan 25, 2026)
 
 1. [#391](../../issues/391): Allow `bundler` `>= 2.0`.
 1. [#393](../../issues/393): Use `rubocop` `1.82.1`.
