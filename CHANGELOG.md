@@ -8,6 +8,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#415](../../issues/415): Use `rubocop-capybara` `2.23.0`.
 1. [#417](../../issues/417): Use `rubocop-rails` `2.35.2`.
 1. [#419](../../issues/419): Remove Ruby 3.2 support.
+1. [#421](../../issues/419): Remove Ruby 4.0 support.
 
 ## 2.20.0 (Jan 25, 2026)
 
