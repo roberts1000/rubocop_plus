@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Relase
+## 2.23.0 (Jul 26, 2026)
 
 1. [#437](../../issues/437): Use `rubocop` `1.88.2`.
 1. [#439](../../issues/439): Use `rubocop-capybara` `3.0.0`.
