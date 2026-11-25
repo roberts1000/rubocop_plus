@@ -2,7 +2,7 @@
 
 Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues marked as **(Internal)** only affect development.
 
-## Next Release
+## 2.24.0 (Nov 25, 2026)
 
 1. [#445](../../issues/445): Use `rubocop` `1.93.0`.
 1. [#447](../../issues/447): Use `rubocop-capybara` `3.1.0`.
