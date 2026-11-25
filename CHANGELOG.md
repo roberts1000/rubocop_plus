@@ -8,6 +8,7 @@ Issues are tracked at https://github.com/roberts1000/rubocop_plus/issues. Issues
 1. [#447](../../issues/447): Use `rubocop-capybara` `3.1.0`.
 1. [#449](../../issues/449): Use `rubocop-performance` `1.27.0`.
 1. [#451](../../issues/451): Use `rubocop-performance` `2.38.0`.
+1. [#453](../../issues/453): Use `rubocop-rspec_rails` `2.33.0`.
 
 ## 2.23.0 (Jul 26, 2026)
 
